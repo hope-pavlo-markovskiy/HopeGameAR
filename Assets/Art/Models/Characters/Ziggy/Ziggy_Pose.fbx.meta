@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 362af22351596bd43b00b6ee10e0ff64
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 4934dd5a29e5c5c49a5dd79905866210, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Ziggy_Pose(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:DeformationSystem
+      parentName: Ziggy_Pose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Root_M
+      parentName: Ziggy_Rig:DeformationSystem
+      position: {x: -8.118086e-18, y: 0.10146572, z: -0.015}
+      rotation: {x: 0.49564573, y: -0.5043167, z: -0.49564573, w: 0.5043167}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Hip_L
+      parentName: Ziggy_Rig:Root_M
+      position: {x: 0.011983358, y: 0.010491861, z: 0.056493096}
+      rotation: {x: 0.9944606, y: 0.034300365, z: 0.063864075, w: -0.07611217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:HipPart1_L
+      parentName: Ziggy_Rig:Hip_L
+      position: {x: 0.012259442, y: 0.0000000027393852, z: -7.9219297e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:HipPart2_L
+      parentName: Ziggy_Rig:HipPart1_L
+      position: {x: 0.012259442, y: 0.0000000027393852, z: -7.921752e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Knee_L
+      parentName: Ziggy_Rig:HipPart2_L
+      position: {x: 0.012259442, y: 0.0000000027393852, z: -7.921663e-13}
+      rotation: {x: 0, y: 0, z: 0.07379105, w: 0.99727374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Ankle_L
+      parentName: Ziggy_Rig:Knee_L
+      position: {x: 0.038432248, y: 2.220446e-18, z: -2.7851322e-12}
+      rotation: {x: -0.084021695, y: -0.057282917, z: -0.03072014, w: 0.9943417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Toes_L
+      parentName: Ziggy_Rig:Ankle_L
+      position: {x: 0.013255619, y: -0.039285887, z: -8.9183334e-11}
+      rotation: {x: 0.01037944, y: 0.0028106323, z: -0.61333746, w: 0.7897478}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Hip_R
+      parentName: Ziggy_Rig:Root_M
+      position: {x: 0.011983358, y: 0.010491861, z: -0.056493096}
+      rotation: {x: -0.034300365, y: 0.9944606, z: -0.07611218, w: -0.06386408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:HipPart1_R
+      parentName: Ziggy_Rig:Hip_R
+      position: {x: -0.012259442, y: -0.0000000027341027, z: 7.921841e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:HipPart2_R
+      parentName: Ziggy_Rig:HipPart1_R
+      position: {x: -0.012259442, y: -0.0000000027341027, z: 7.921841e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Knee_R
+      parentName: Ziggy_Rig:HipPart2_R
+      position: {x: -0.012259442, y: -0.0000000027341027, z: 7.9220186e-13}
+      rotation: {x: 0, y: 0, z: 0.07379105, w: 0.99727374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Ankle_R
+      parentName: Ziggy_Rig:Knee_R
+      position: {x: -0.038432248, y: -6.5503156e-17, z: 2.7850877e-12}
+      rotation: {x: -0.084021695, y: -0.057282917, z: -0.03072014, w: 0.9943417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Toes_R
+      parentName: Ziggy_Rig:Ankle_R
+      position: {x: -0.013255619, y: 0.039285887, z: 1.1901219e-10}
+      rotation: {x: 0.01037944, y: 0.0028106323, z: -0.61333746, w: 0.7897478}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:RootPart1_M
+      parentName: Ziggy_Rig:Root_M
+      position: {x: -0.016938187, y: -6.661338e-18, z: -2.084987e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:RootPart2_M
+      parentName: Ziggy_Rig:RootPart1_M
+      position: {x: -0.016938187, y: -2.220446e-18, z: -2.2730387e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Spine1_M
+      parentName: Ziggy_Rig:RootPart2_M
+      position: {x: -0.016938187, y: -1.11022296e-17, z: -6.066909e-17}
+      rotation: {x: 4.8700346e-32, y: -5.52344e-32, z: -0.010978572, w: 0.99993974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Spine1Part1_M
+      parentName: Ziggy_Rig:Spine1_M
+      position: {x: -0.02002843, y: -2.8865798e-17, z: -1.28700055e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Spine1Part2_M
+      parentName: Ziggy_Rig:Spine1Part1_M
+      position: {x: -0.02002843, y: -2.8865798e-17, z: -1.28700055e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Chest_M
+      parentName: Ziggy_Rig:Spine1Part2_M
+      position: {x: -0.02002843, y: -1.9984014e-17, z: -3.7327806e-17}
+      rotation: {x: 4.887594e-32, y: -8.943733e-33, z: -0.056600843, w: 0.99839693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Neck_M
+      parentName: Ziggy_Rig:Chest_M
+      position: {x: -0.03895896, y: 2.6645352e-17, z: 1.8864259e-16}
+      rotation: {x: 8.159722e-17, y: -3.8793252e-17, z: -0.025194792, w: 0.99968255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:NeckPart1_M
+      parentName: Ziggy_Rig:Neck_M
+      position: {x: -0.009124519, y: -8.881784e-18, z: -2.1138365e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:NeckPart2_M
+      parentName: Ziggy_Rig:NeckPart1_M
+      position: {x: -0.009124519, y: 3.5527136e-17, z: -2.1138365e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Head_M
+      parentName: Ziggy_Rig:NeckPart2_M
+      position: {x: -0.009124519, y: 8.881784e-18, z: -2.7439545e-17}
+      rotation: {x: 4.8493338e-32, y: 3.803451e-32, z: 0.021606512, w: 0.9997666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:FaceJoint_M
+      parentName: Ziggy_Rig:Head_M
+      position: {x: -0.0012989246, y: 0.01033252, z: 8.850408e-18}
+      rotation: {x: 0.5302666, y: -0.4677792, z: -0.5302666, w: -0.4677792}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:EyeJoint_R
+      parentName: Ziggy_Rig:FaceJoint_M
+      position: {x: 0.01983556, y: 0.04143279, z: 0.042539272}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:EyeJoint_L
+      parentName: Ziggy_Rig:FaceJoint_M
+      position: {x: -0.01983556, y: 0.04143279, z: 0.042539272}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:EarBase_L
+      parentName: Ziggy_Rig:Head_M
+      position: {x: -0.072742335, y: -0.011332227, z: 0.052625053}
+      rotation: {x: 0.26077062, y: 0.5946542, z: 0.74059385, w: -0.17293312}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:EarMid_L
+      parentName: Ziggy_Rig:EarBase_L
+      position: {x: 0.01678118, y: -2.842171e-16, z: -1.5987211e-16}
+      rotation: {x: -0.011235482, y: -0.07422557, z: 0.028392263, w: 0.9967739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:EarBase_R
+      parentName: Ziggy_Rig:Head_M
+      position: {x: -0.072742335, y: -0.011332227, z: -0.052625053}
+      rotation: {x: 0.59465426, y: -0.26077065, z: 0.17293315, w: 0.74059385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:EarMid_R
+      parentName: Ziggy_Rig:EarBase_R
+      position: {x: -0.01678118, y: 2.1316282e-16, z: 1.9539925e-16}
+      rotation: {x: -0.011235482, y: -0.07422557, z: 0.028392263, w: 0.9967739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Scapula_L
+      parentName: Ziggy_Rig:Chest_M
+      position: {x: -0.020275094, y: 0.0008067487, z: 0.037625797}
+      rotation: {x: 0.67048156, y: 0.058341138, z: 0.7392695, w: -0.023052303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Shoulder_L
+      parentName: Ziggy_Rig:Scapula_L
+      position: {x: 0.02002591, y: 1.7763568e-17, z: -9.947598e-16}
+      rotation: {x: 0.1110687, y: -0.041436233, z: 0.0028316304, w: 0.99294454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ShoulderPart1_L
+      parentName: Ziggy_Rig:Shoulder_L
+      position: {x: 0.01602219, y: -2.6645352e-17, z: -3.5527136e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ShoulderPart2_L
+      parentName: Ziggy_Rig:ShoulderPart1_L
+      position: {x: 0.01602219, y: -8.881784e-18, z: -1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Elbow_L
+      parentName: Ziggy_Rig:ShoulderPart2_L
+      position: {x: 0.01602219, y: -3.1086245e-17, z: 0}
+      rotation: {x: 0.00003069639, y: 0.00053373346, z: -0.009257131, w: 0.9999571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ElbowPart1_L
+      parentName: Ziggy_Rig:Elbow_L
+      position: {x: 0.015716871, y: 4.440892e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ElbowPart2_L
+      parentName: Ziggy_Rig:ElbowPart1_L
+      position: {x: 0.015716871, y: 3.1086245e-17, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Wrist_L
+      parentName: Ziggy_Rig:ElbowPart2_L
+      position: {x: 0.015716871, y: 1.7763568e-17, z: -3.5527136e-17}
+      rotation: {x: -0.108667485, y: 0.004859311, z: 0.08094685, w: 0.99076504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:IndexFinger1_L
+      parentName: Ziggy_Rig:Wrist_L
+      position: {x: 0.035543237, y: -0.009561686, z: 0.0007182241}
+      rotation: {x: 0.005396193, y: -0.011178406, z: -0.1045709, w: 0.99444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:IndexFinger2_L
+      parentName: Ziggy_Rig:IndexFinger1_L
+      position: {x: 0.010863644, y: -1.7763568e-17, z: 3.1974422e-16}
+      rotation: {x: 0.00004992704, y: -0.02146556, z: -0.0020448512, w: 0.9997675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:IndexFinger3_L
+      parentName: Ziggy_Rig:IndexFinger2_L
+      position: {x: 0.00962188, y: 0, z: 1.0658141e-16}
+      rotation: {x: -0.014250638, y: 0.0013002242, z: 0.0020988507, w: 0.99989545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:MiddleFinger1_L
+      parentName: Ziggy_Rig:Wrist_L
+      position: {x: 0.0396762, y: -9.436896e-18, z: -3.5527135e-16}
+      rotation: {x: -0.0011335731, y: -0.028579483, z: -0.004585395, w: 0.9995804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:MiddleFinger2_L
+      parentName: Ziggy_Rig:MiddleFinger1_L
+      position: {x: 0.011091696, y: 7.771561e-18, z: 0}
+      rotation: {x: 0.00032489342, y: -0.0073668123, z: -0.002935173, w: 0.9999685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:MiddleFinger3_L
+      parentName: Ziggy_Rig:MiddleFinger2_L
+      position: {x: 0.00945318, y: -1.498801e-17, z: 7.105427e-17}
+      rotation: {x: 0.0004641662, y: 0.00030131885, z: 0.0018465166, w: 0.99999815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Cup_L
+      parentName: Ziggy_Rig:Wrist_L
+      position: {x: 0.008351435, y: 0.004223706, z: 0.000046882167}
+      rotation: {x: -0.024987163, y: -0.015317841, z: 0.003742354, w: 0.9995634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:PinkyFinger1_L
+      parentName: Ziggy_Rig:Cup_L
+      position: {x: 0.023560757, y: 0.010788131, z: 0.0026994583}
+      rotation: {x: 0.008290438, y: -0.0053241686, z: 0.04632601, w: 0.99887776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:PinkyFinger2_L
+      parentName: Ziggy_Rig:PinkyFinger1_L
+      position: {x: 0.007907025, y: 3.5527136e-17, z: -1.4210854e-16}
+      rotation: {x: 0.001795556, y: 0.030288653, z: -0.02878023, w: 0.9991252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:PinkyFinger3_L
+      parentName: Ziggy_Rig:PinkyFinger2_L
+      position: {x: 0.008438103, y: -1.4654943e-16, z: -2.842171e-16}
+      rotation: {x: 0.01906394, y: -0.011283245, z: 0.013444051, w: 0.99966425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:RingFinger1_L
+      parentName: Ziggy_Rig:Cup_L
+      position: {x: 0.028393172, y: 0.004426342, z: 0.0012223971}
+      rotation: {x: 0.025007507, y: -0.0054678805, z: 0.039774388, w: 0.99888074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:RingFinger2_L
+      parentName: Ziggy_Rig:RingFinger1_L
+      position: {x: 0.011343004, y: 1.5543122e-17, z: 1.4210854e-16}
+      rotation: {x: -0.0018885898, y: -0.013137949, z: 0.0065239007, w: 0.9998906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:RingFinger3_L
+      parentName: Ziggy_Rig:RingFinger2_L
+      position: {x: 0.0079594655, y: -3.330669e-18, z: 0}
+      rotation: {x: 0.0049845283, y: -0.0010681637, z: 0.0010621637, w: 0.99998647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ThumbFinger1_L
+      parentName: Ziggy_Rig:Wrist_L
+      position: {x: 0.015544241, y: -0.012790741, z: 0.0027080316}
+      rotation: {x: -0.4254449, y: 0.10979576, z: -0.34206143, w: 0.8306236}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ThumbFinger2_L
+      parentName: Ziggy_Rig:ThumbFinger1_L
+      position: {x: 0.012724633, y: -4.6185276e-16, z: 1.5987211e-16}
+      rotation: {x: 0.00011626643, y: -0.01138923, z: -0.0073566902, w: 0.9999081}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ThumbFinger3_L
+      parentName: Ziggy_Rig:ThumbFinger2_L
+      position: {x: 0.009789701, y: 2.4868996e-16, z: -3.5527136e-17}
+      rotation: {x: -0.000012341786, y: 0.0014050624, z: 0.008783452, w: 0.9999605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Scapula_R
+      parentName: Ziggy_Rig:Chest_M
+      position: {x: -0.020275094, y: 0.0008067487, z: -0.037625797}
+      rotation: {x: 0.058341134, y: -0.67048156, z: 0.023052301, w: 0.7392695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Shoulder_R
+      parentName: Ziggy_Rig:Scapula_R
+      position: {x: -0.02002591, y: -5.3290704e-17, z: 1.065814e-15}
+      rotation: {x: 0.1110687, y: -0.041436233, z: 0.0028316304, w: 0.99294454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ShoulderPart1_R
+      parentName: Ziggy_Rig:Shoulder_R
+      position: {x: -0.01602219, y: 2.6645352e-17, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ShoulderPart2_R
+      parentName: Ziggy_Rig:ShoulderPart1_R
+      position: {x: -0.01602219, y: 1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Elbow_R
+      parentName: Ziggy_Rig:ShoulderPart2_R
+      position: {x: -0.01602219, y: 1.3322676e-17, z: 1.0658141e-16}
+      rotation: {x: 0.000030681487, y: 0.0005337223, z: -0.009257209, w: 0.9999571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ElbowPart1_R
+      parentName: Ziggy_Rig:Elbow_R
+      position: {x: -0.015716871, y: -8.881784e-18, z: 7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ElbowPart2_R
+      parentName: Ziggy_Rig:ElbowPart1_R
+      position: {x: -0.015716871, y: 1.7763568e-17, z: 1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Wrist_R
+      parentName: Ziggy_Rig:ElbowPart2_R
+      position: {x: -0.015716871, y: -1.7763568e-17, z: 0}
+      rotation: {x: -0.108667485, y: 0.004859311, z: 0.08094685, w: 0.99076504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:IndexFinger1_R
+      parentName: Ziggy_Rig:Wrist_R
+      position: {x: -0.035543237, y: 0.009561686, z: -0.0007182241}
+      rotation: {x: 0.005396275, y: -0.011178313, z: -0.10457076, w: 0.99443996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:IndexFinger2_R
+      parentName: Ziggy_Rig:IndexFinger1_R
+      position: {x: -0.010863644, y: 2.6645352e-17, z: -2.1316282e-16}
+      rotation: {x: 0.00004992704, y: -0.02146556, z: -0.0020448512, w: 0.9997675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:IndexFinger3_R
+      parentName: Ziggy_Rig:IndexFinger2_R
+      position: {x: -0.00962188, y: 0, z: -1.7763567e-16}
+      rotation: {x: -0.014250638, y: 0.0013002242, z: 0.0020988507, w: 0.99989545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:MiddleFinger1_R
+      parentName: Ziggy_Rig:Wrist_R
+      position: {x: -0.0396762, y: 7.216449e-18, z: 1.7763567e-16}
+      rotation: {x: -0.0011335731, y: -0.028579483, z: -0.004585395, w: 0.9995804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:MiddleFinger2_R
+      parentName: Ziggy_Rig:MiddleFinger1_R
+      position: {x: -0.011091696, y: -7.216449e-18, z: 1.0658141e-16}
+      rotation: {x: 0.00032489342, y: -0.0073668123, z: -0.002935173, w: 0.9999685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:MiddleFinger3_R
+      parentName: Ziggy_Rig:MiddleFinger2_R
+      position: {x: -0.00945318, y: 1.5543122e-17, z: 7.105427e-17}
+      rotation: {x: 0.0004641662, y: 0.00030131885, z: 0.0018465166, w: 0.99999815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Cup_R
+      parentName: Ziggy_Rig:Wrist_R
+      position: {x: -0.008351435, y: -0.004223706, z: -0.000046882167}
+      rotation: {x: -0.024987163, y: -0.015317841, z: 0.003742354, w: 0.9995634}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:PinkyFinger1_R
+      parentName: Ziggy_Rig:Cup_R
+      position: {x: -0.023560757, y: -0.010788131, z: -0.0026994583}
+      rotation: {x: 0.008290218, y: -0.0053244685, z: 0.046325155, w: 0.9988779}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:PinkyFinger2_R
+      parentName: Ziggy_Rig:PinkyFinger1_R
+      position: {x: -0.007907025, y: -2.6645352e-17, z: 7.105427e-17}
+      rotation: {x: 0.001795556, y: 0.030288653, z: -0.02878023, w: 0.9991252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:PinkyFinger3_R
+      parentName: Ziggy_Rig:PinkyFinger2_R
+      position: {x: -0.008438103, y: 1.02140514e-16, z: 2.4868996e-16}
+      rotation: {x: 0.01906394, y: -0.011283245, z: 0.013444051, w: 0.99966425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:RingFinger1_R
+      parentName: Ziggy_Rig:Cup_R
+      position: {x: -0.028393172, y: -0.004426342, z: -0.0012223971}
+      rotation: {x: 0.025007507, y: -0.0054678805, z: 0.039774388, w: 0.99888074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:RingFinger2_R
+      parentName: Ziggy_Rig:RingFinger1_R
+      position: {x: -0.011343004, y: -1.7763568e-17, z: -1.4210854e-16}
+      rotation: {x: -0.0018885898, y: -0.013137949, z: 0.0065239007, w: 0.9998906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:RingFinger3_R
+      parentName: Ziggy_Rig:RingFinger2_R
+      position: {x: -0.0079594655, y: 3.330669e-18, z: 3.5527136e-17}
+      rotation: {x: 0.0049845283, y: -0.0010681637, z: 0.0010621637, w: 0.99998647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ThumbFinger1_R
+      parentName: Ziggy_Rig:Wrist_R
+      position: {x: -0.015544241, y: 0.012790741, z: -0.0027080316}
+      rotation: {x: -0.4254447, y: 0.10979583, z: -0.34206092, w: 0.8306239}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ThumbFinger2_R
+      parentName: Ziggy_Rig:ThumbFinger1_R
+      position: {x: -0.012724633, y: 3.1974422e-16, z: -1.2434498e-16}
+      rotation: {x: 0.00011626643, y: -0.01138923, z: -0.0073566902, w: 0.9999081}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ThumbFinger3_R
+      parentName: Ziggy_Rig:ThumbFinger2_R
+      position: {x: -0.009789701, y: -2.842171e-16, z: 5.3290704e-17}
+      rotation: {x: -0.000012341786, y: 0.0014050624, z: 0.008783452, w: 0.9999605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Tail0_M
+      parentName: Ziggy_Rig:Root_M
+      position: {x: 0.013460138, y: -0.044109605, z: -5.2033557e-18}
+      rotation: {x: 0.5812948, y: 0.81369305, z: 3.7298982e-16, w: -6.2744686e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Tail1_M
+      parentName: Ziggy_Rig:Tail0_M
+      position: {x: -0.07173291, y: -2.842171e-16, z: 1.1110891e-17}
+      rotation: {x: 2.8285381e-16, y: 3.7924067e-17, z: 0.1395387, w: 0.9902166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Tail2_M
+      parentName: Ziggy_Rig:Tail1_M
+      position: {x: -0.08364679, y: 1.7763568e-17, z: -4.3960025e-16}
+      rotation: {x: 4.6349647e-15, y: 1.0623793e-16, z: 0.03917249, w: 0.9992325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:Geometry
+      parentName: Ziggy_Pose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:geo
+      parentName: Ziggy_Rig:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:ziggy_body_low
+      parentName: Ziggy_Rig:model4:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:ziggy_right_eye_low
+      parentName: Ziggy_Rig:model4:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:ziggy_left_eye_low
+      parentName: Ziggy_Rig:model4:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:ziggy_top_teeth_low
+      parentName: Ziggy_Rig:model4:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:ziggy_bottom_teeth_low
+      parentName: Ziggy_Rig:model4:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:ziggy_top_gums_low
+      parentName: Ziggy_Rig:model4:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:ziggy_bottom_gums_low
+      parentName: Ziggy_Rig:model4:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:model4:ziggy_tongue_low
+      parentName: Ziggy_Rig:model4:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:FaceGroup
+      parentName: Ziggy_Pose(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:FaceMotionSystem
+      parentName: Ziggy_Rig:FaceGroup
+      position: {x: -1.6434926e-16, y: 0.2780328, z: -0.0064375824}
+      rotation: {x: -2.7755576e-17, y: 4.440892e-16, z: 8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ControlsSetup
+      parentName: Ziggy_Rig:FaceMotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBox
+      parentName: Ziggy_Rig:ControlsSetup
+      position: {x: -0.1073228, y: 0.031539638, z: 0.052953117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3, y: 1.3, z: 1.3}
+    - name: Ziggy_Rig:ctrlBoxBrow_R
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: 0.006508653, y: 0.019525958, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlBrow_R
+      parentName: Ziggy_Rig:ctrlBoxBrow_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxBrow_L
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0.006508653, y: 0.019525958, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlBrow_L
+      parentName: Ziggy_Rig:ctrlBoxBrow_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxEye_R
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: 0.006508653, y: 0.009893153, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlEye_R
+      parentName: Ziggy_Rig:ctrlBoxEye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxEye_L
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0.006508653, y: 0.009893153, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlEye_L
+      parentName: Ziggy_Rig:ctrlBoxEye_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxCheek_R
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: 0.006508653, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlCheek_R
+      parentName: Ziggy_Rig:ctrlBoxCheek_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxCheek_L
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0.006508653, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlCheek_L
+      parentName: Ziggy_Rig:ctrlBoxCheek_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxNose_R
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: 0.006508653, y: -0.0057276147, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlNose_R
+      parentName: Ziggy_Rig:ctrlBoxNose_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxNose_L
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0.006508653, y: -0.0057276147, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlNose_L
+      parentName: Ziggy_Rig:ctrlBoxNose_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxMouth_M
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0, y: -0.010413844, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.86782044, y: 0.86782044, z: 0.86782044}
+    - name: Ziggy_Rig:ctrlMouth_M
+      parentName: Ziggy_Rig:ctrlBoxMouth_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxMouthCorner_R
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: 0.006508653, y: -0.026034612, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlMouthCorner_R
+      parentName: Ziggy_Rig:ctrlBoxMouthCorner_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxMouthCorner_L
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0.006508653, y: -0.026034612, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlMouthCorner_L
+      parentName: Ziggy_Rig:ctrlBoxMouthCorner_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxPhonemes_M
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0, y: -0.021088034, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.15778553, y: 0.15778553, z: 0.15778553}
+    - name: Ziggy_Rig:ctrlPhonemes_M
+      parentName: Ziggy_Rig:ctrlBoxPhonemes_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxEmotions_M
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0, y: -0.033844996, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.15778553, y: 0.15778553, z: 0.15778553}
+    - name: Ziggy_Rig:ctrlEmotions_M
+      parentName: Ziggy_Rig:ctrlBoxEmotions_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxTongue_M
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0, y: -0.027504835, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.15778553, y: 0.15778553, z: 0.15778553}
+    - name: Ziggy_Rig:ctrlTongue_M
+      parentName: Ziggy_Rig:ctrlBoxTongue_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxHair_M
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0.000018197581, y: 0.029199524, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlHair_M
+      parentName: Ziggy_Rig:ctrlBoxHair_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxHair_R
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: 0.007106514, y: 0.029199524, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlHair_R
+      parentName: Ziggy_Rig:ctrlBoxHair_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ziggy_Rig:ctrlBoxHair_L
+      parentName: Ziggy_Rig:ctrlBox
+      position: {x: -0.007709783, y: 0.029199524, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.43391022, y: 0.43391022, z: 0.43391022}
+    - name: Ziggy_Rig:ctrlHair_L
+      parentName: Ziggy_Rig:ctrlBoxHair_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
